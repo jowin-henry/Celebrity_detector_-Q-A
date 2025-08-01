@@ -7,7 +7,9 @@ class CelebrityDetector:
     def __init__(self):
         self.api_key = os.getenv("GROQ_API_KEY")
         self.api_url = "https://api.groq.com/openai/v1/chat/completions"
-        self.model = "meta-llama/llama-4-maverick-17b-128e-instruct"
+        # self.model = "meta-llama/llama-4-maverick-17b-128e-instruct"
+        self.model = "meta-llama/llama-4-scout-17b-16e-instruct"
+
 
     def identify(self , image_bytes):
         encoded_image = base64.b64encode(image_bytes).decode()
