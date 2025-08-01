@@ -14,13 +14,13 @@ The app leverages **vision transformer-powered LLMs** (specifically Meta’s LLa
 
 Here are some example snapshots of the app in action:
 
-### 🔍 Celebrity Detection
+### 🔍 Celebrity Detection and Q&A
 
-![Celebrity Detection Screenshot](assets/detection_example.png)
+![Celebrity Detection Screenshot](images/ar.png)
 
-### 💬 Q&A About the Celebrity
+### 
 Ask questions and get concise, LLM-powered answers:
-![Celebrity Q&A Screenshot](assets/qa_example.png)
+![Celebrity Q&A Screenshot](images/njr.png)
 
 
 
@@ -85,7 +85,7 @@ Ask questions and get concise, LLM-powered answers:
 
 ## 🌱 Future Improvements
 
-* 🔍 Enhance image preprocessing with more advanced face detectors or alignment.
+
 * 👥 Add support for multiple faces per image with multi-identity recognition.
 * 🗣️ Implement context-aware multi-turn conversational Q\&A.
 * 🛡️ Improve response safety and moderation in Q\&A.
