@@ -1,0 +1,79 @@
+/* Base Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* Buttons */
+button {
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(255, 186, 148, 0.3); /* Rose gold shadow */
+}
+
+button:focus {
+  outline: 2px solid #f472b6; /* Rose-400 */
+  outline-offset: 2px;
+}
+
+/* File Input */
+input[type="file"] {
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+input[type="file"]:hover,
+input[type="file"]:focus {
+  border-color: #f472b6; /* Rose-400 */
+  box-shadow: 0 0 10px rgba(244, 114, 182, 0.4);
+  outline: none;
+}
+
+/* Text Inputs */
+input[type="text"],
+input[type="search"],
+input[name="question"] {
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="search"]:focus,
+input[name="question"]:focus {
+  border-color: #f472b6; /* Rose-400 */
+  box-shadow: 0 0 10px rgba(244, 114, 182, 0.4);
+  outline: none;
+}
+
+/* Image hover effect */
+img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(255, 186, 148, 0.25);
+}
+
+/* Answer box */
+.answer-box {
+  animation: fadeIn 0.5s ease-in-out;
+  background: linear-gradient(to right, #1e1b4b, #2e1065); /* Indigo shades */
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #756e88;
+  box-shadow: 0 4px 15px rgba(167, 139, 250, 0.3); /* Indigo glow */
+}
+
+/* Subtle fade in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+  h1 { font-size: 1.75rem; }
+  h2 { font-size: 1.25rem; }
+}
