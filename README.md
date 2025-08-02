@@ -5,7 +5,7 @@ This project combines state-of-the-art **Large Language Models (LLMs)** to deliv
 
 ## 🌟 Overview
 
-The app leverages **vision transformer-powered LLMs** (specifically Meta’s LLaMA 4 Maverick 17B Instruct model hosted via Groq's API) to:
+The app leverages **vision transformer-powered LLMs** (specifically Meta’s LLaMA 4 Scout 17B Instruct model hosted via Groq's API) to:
 
 - 🖼️ **Recognize celebrities** in user-uploaded images by analyzing visual input and generating structured textual information.
 - 💬 **Answer user questions** about the detected celebrity using natural language processing, providing concise, accurate, and context-aware responses.
