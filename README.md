@@ -77,7 +77,7 @@ Ask questions and get concise, LLM-powered answers:
 
 ## 🔧 Technologies
 
-* 🤖 **Large Language Model:** Meta LLaMA 4 Maverick 17B with vision capabilities
+* 🤖 **Large Language Model:** Meta LLaMA 4 Scout 17B with vision capabilities
 * ☁️ **API Hosting:** Groq AI API for multimodal LLM inference
 * 🖥️ **Computer Vision:** OpenCV for face detection preprocessing
 * 🐍 **Backend Framework:** Flask
