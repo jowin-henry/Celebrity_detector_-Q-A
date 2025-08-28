@@ -98,9 +98,6 @@ These guardrails help maintain **trust, safety, and quality** in user interactio
 * The vision transformer LLM processes the image and returns detailed information about the celebrity.
 * Ask follow-up questions in natural language; the LLM answers them based on the celebrity context.
 
-Great — adding a **CI/CD & GCP deployment section** with your context will make your README much stronger and professional.
-Here’s how you can integrate it into your README (I’ll keep the formatting and flow consistent with what you shared earlier):
-
 
 ## ⚙️ CI/CD & Deployment with CircleCI and GCP
 
